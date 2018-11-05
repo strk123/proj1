@@ -4,15 +4,15 @@ using namespace std;
 
 class resource {
 private:
-	string name;
+	string name; //resource name
 public:
-	void set_name(string sname);
-	string get_name();
+	void set_name(string sname); // set resource name
+	string get_name(); // get resource name
 };
 
 class book : public resource {
 private :
-	string member;
+	string member; // member who borrowed resource
 	string day_borrow;
 	string day_return;
 

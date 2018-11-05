@@ -4,7 +4,7 @@ using namespace std;
 
 class member {
 private:
-	string name;
+	string name; // member name
 public:
 	void set_name(string sname);
 	string get_name();
@@ -12,7 +12,7 @@ public:
 
 class undergraduate : public member{
 private:
-	int book_num;
+	int book_num; // number of borrowed books
 	string book_name;
 	string ban_day;
 	string day;

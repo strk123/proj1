@@ -13,3 +13,5 @@ member.o : member.cpp
 
 source.o : resource.cpp
 	g++ -std=c++11 -c resource.cpp
+clean:
+	rm *.o proj1
